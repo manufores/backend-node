@@ -1,0 +1,34 @@
+{
+    "anuncios": [
+        {
+            "nombre": "Bicicleta",
+            "venta": true,
+            "precio": 2300.15,
+            "foto": "/public/images/bici.jpg",
+            "tags": [
+                "lifestyle",
+                "motor"
+            ]
+        },
+        {
+            "nombre": "iphone 3GS",
+            "venta": false,
+            "precio": 50.00,
+            "foto": "/public/images/iphone3gs.jpg",
+            "tags": [
+                "lifestyle",
+                "mobile"
+            ]
+        },
+        {
+            "nombre": "Coche",
+            "venta": true,
+            "precio": 13000.50,
+            "foto": "/public/images/coche.jpg",
+            "tags": [
+                "lifestyle",
+                "motor"
+            ]
+        }
+    ]
+}
