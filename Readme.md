@@ -10,7 +10,8 @@ Esta API proporciona anuncios de venta de artículos de segunda mano, llamada No
 
 - Lista de anuncios (paginada, con filtros de búsqueda y ordenación)
 - La API permite tanto buscar anuncios como poner filtros por varios criterios:
-> por precio, se puede indicar un valor concreto o, también se puede especificar un rango de precios; por ejemplo entre 10-50.
+> por precio, se puede indicar un valor concreto o,
+> también se puede especificar un rango de precios; por ejemplo entre 10-50.
 > por tags,
 > por nombre, 
 > por venta, indicando si se vende o no, indicando true o false.
