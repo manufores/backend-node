@@ -15,7 +15,7 @@ router.get('/', async (req, res, next) => {
     const venta = req.query.venta;
     const precio = req.query.precio;
     const tags =  req.query.tags;
-    const skip = parseInt(req.query.skip);
+    const start = parseInt(req.query.start);
     const limit = parseInt(req.query.limit);
     const fields = req.query.fields;
     const sort = req.query.sort;
@@ -36,7 +36,7 @@ router.get('/', async (req, res, next) => {
 
     
 
-    const anuncios = await Anuncio.list({ filter: filter, skip, limit, fields, sort });
+    const anuncios = await Anuncio.list({ filter: filter, start, limit, fields, sort });
     res.locals.results = anuncios;
     res.render('index');
 

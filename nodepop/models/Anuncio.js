@@ -11,9 +11,9 @@ const anuncioSchema = mongoose.Schema({
     tags: [String]
 });
 
-anuncioSchema.statics.list = function({filter, skip, limit, fields, sort}){ //usamos el destructuring poniendo las llaves y de esa manera conseguimos que no hace falta pasarle los campos por orden desde el controlador
+anuncioSchema.statics.list = function({filter, start, limit, fields, sort}){ //usamos el destructuring poniendo las llaves y de esa manera conseguimos que no hace falta pasarle los campos por orden desde el controlador
     const query = Anuncio.find(filter);
-    query.skip(skip);
+    query.skip(start);
     query.limit(limit);
     query.select(fields);
     query.sort(sort);
