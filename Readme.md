@@ -1,5 +1,10 @@
 # Nodepop API
 
+## Direcciones para visualizar la práctica de devOps
+- Para visualizar una página estática hay que acceder a través de la siguiente dirección IP: 18.218.22.245
+- Para visalualizar la práctica de NodePop hay que acceder a través de la siguiente DNS:
+ec2-18-218-22-245.us-east-2.compute.amazonaws.com
+
 ## Práctica WEB-API/Node.js/MongoDB
 
 ## Descripción de la API
